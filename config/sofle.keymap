@@ -77,17 +77,17 @@
             label = "raise";
 
             // ------------------------------------------------------------------------------------------------------------
-            // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |  {   |   }   |  DEL  |
+            // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |   [  |   ]   |  {   |   }   |  DEL  |
             // |       | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |  -   |   =   |   |   |
             // |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   <- |   v   |  ->  |       |   \   |
-            // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |   ,   |  .   |   /   |       |
+            // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |  [   |   ]  |   ,   |  .   |   /   |       |
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none      &none     &none     &kp LBRC   &kp RBRC   &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none      &kp LBKT  &kp RBKT  &kp LBRC   &kp RBRC   &trans
 &trans      &kp INS       &kp PSCRN     &kp K_CMENU   &none         &none                           &kp PG_UP  &none     &kp UP    &kp MINUS  &kp EQUAL  &kp PIPE
 &trans      &kp LALT      &kp LCTRL     &kp LSHFT     &none         &kp CLCK                        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none      &kp BSLH
-&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &none      &none     &trans    &trans     &trans     &trans
+&trans      &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &trans  &kp LBKT   &kp RBKT  &trans    &trans     &trans     &trans
                           &trans        &trans        &trans        &trans        &trans    &trans  &trans     &trans    &trans    &trans
             >;
 
