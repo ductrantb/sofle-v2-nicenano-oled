@@ -12,11 +12,11 @@ layers:
   - F6
   - F7
   - F8
-  - '{'
-  - '}'
+  - (
+  - )
   - ''
   - {t: ▽, type: trans}
-  - CLCK
+  - DELETE
   - ''
   - F9
   - F10
@@ -25,28 +25,28 @@ layers:
   - ''
   - _
   - KP PLUS
-  - '-'
-  - '='
+  - '{'
+  - '}'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
+  - KP PLUS
   - (
   - )
+  - '{'
+  - '}'
+  - ''
+  - '-'
+  - '='
+  - '['
+  - ']'
   - '|'
   - {t: ▽, type: trans}
   - '='
   - '-'
-  - KP PLUS
-  - '{'
-  - '}'
+  - _
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
