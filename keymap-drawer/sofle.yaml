@@ -14,7 +14,6 @@ layers:
   - F8
   - (
   - )
-  - ''
   - {t: ▽, type: trans}
   - DELETE
   - ''
@@ -27,7 +26,6 @@ layers:
   - KP PLUS
   - '{'
   - '}'
-  - ''
   - {t: ▽, type: trans}
   - CLCK
   - KP PLUS
@@ -56,9 +54,9 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
