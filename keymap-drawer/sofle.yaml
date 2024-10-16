@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, SPACE, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, LSHFT, RSHFT, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RET]
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BSPC, TAB, Q, W, E, R, T, Y, U, I, O, P, \, SPACE, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
+    X, C, V, B, LSHFT, RSHFT, N, M, ',', ., /, RSHFT, LGUI, LALT, LCTRL, lower, RET, SPACE, raise, RCTRL, RALT, RET]
   lower:
   - ESC
   - F1
@@ -14,7 +14,7 @@ layers:
   - F8
   - (
   - )
-  - {t: ▽, type: trans}
+  - DELETE
   - DELETE
   - ''
   - F9
@@ -28,9 +28,9 @@ layers:
   - '}'
   - {t: ▽, type: trans}
   - CLCK
-  - KP PLUS
   - (
-  - )
+  - _
+  - KP PLUS
   - '{'
   - '}'
   - ''
@@ -38,20 +38,20 @@ layers:
   - '='
   - '['
   - ']'
-  - '|'
   - {t: ▽, type: trans}
-  - '='
+  - {t: ▽, type: trans}
+  - )
   - '-'
-  - _
+  - '='
   - '['
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - ;
-  - ':'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,7 +75,7 @@ layers:
   - ']'
   - '{'
   - '}'
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - INS
   - PSCRN
@@ -98,8 +98,8 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
-  - \
-  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UNDO
   - CUT
