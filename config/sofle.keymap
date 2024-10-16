@@ -57,16 +57,16 @@
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
             // |  ESC  |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  (   |   )   |  DEL  |
-            // |  DEL  |     |  F9 |  F10 |  F11 |  F12 |                   |      |  _    |  +    |  {   |   }   |   \   |
-            // |  CAPS |  (  |  _  |  +   |  {   |  }   |                   |      |  -    |  =    |  [   |   ]   |   '   |
-            // |       |  )  |  -  |  =   |  [   |  ]   |        |  |       |   [  |  ]    |  ,    |  .   |   /   | SHIFT |
+            // |  DEL  |     |  F9 |  F10 |  F11 |  F12 |                   |      |  -    |  +    |  {   |   }   |   \   |
+            // |  CAPS |  (  |  -  |  +   |  {   |  }   |                   |      |  _    |  =    |  [   |   ]   |   '   |
+            // |       |  )  |  _  |  =   |  [   |  ]   |        |  |       |   [  |  ]    |  ,    |  .   |   /   | SHIFT |
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
 &kp ESC    &kp F1       &kp F2     &kp F3       &kp F4    &kp F5                       &kp F6     &kp F7      &kp F8           &kp LPAR     &kp RPAR  &kp DELETE
-&kp DELETE &none        &kp F9     &kp F10      &kp F11   &kp F12                      &none      &kp UNDER   &kp KP_PLUS      &kp LBRC     &kp RBRC  &trans
-&kp CLCK   &kp LPAR     &kp UNDER  &kp KP_PLUS  &kp LBRC  &kp RBRC                     &none      &kp MINUS   &kp EQUAL        &kp LBKT     &kp RBKT  &trans
-&trans     &kp RPAR     &kp MINUS  &kp EQUAL    &kp LBKT  &kp RBKT   &trans    &trans  &kp LBKT   &kp RBKT    &trans           &trans       &trans    &trans
+&kp DELETE &none        &kp F9     &kp F10      &kp F11   &kp F12                      &none      &kp MINUS   &kp KP_PLUS      &kp LBRC     &kp RBRC  &trans
+&kp CLCK   &kp LPAR     &kp MINUS  &kp KP_PLUS  &kp LBRC  &kp RBRC                     &none      &kp UNDER   &kp EQUAL        &kp LBKT     &kp RBKT  &trans
+&trans     &kp RPAR     &kp UNDER  &kp EQUAL    &kp LBKT  &kp RBKT   &trans    &trans  &kp LBKT   &kp RBKT    &trans           &trans       &trans    &trans
                         &trans     &trans       &trans    &trans     &trans    &trans  &trans     &trans      &trans           &trans
             >;
 
