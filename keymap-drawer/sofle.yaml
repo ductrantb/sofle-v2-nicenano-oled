@@ -23,16 +23,16 @@ layers:
   - F12
   - ''
   - '-'
-  - KP PLUS
+  - +
   - '{'
   - '}'
   - {t: ▽, type: trans}
   - CLCK
   - (
   - '-'
-  - KP PLUS
-  - '{'
-  - '}'
+  - '='
+  - ''''
+  - ;
   - ''
   - _
   - '='
@@ -41,8 +41,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - )
-  - _
-  - '='
+  - <
+  - '>'
   - '['
   - ']'
   - {t: ▽, type: trans}
